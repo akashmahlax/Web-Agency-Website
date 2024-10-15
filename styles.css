@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* background-color: rgba(240, 248, 255, 0.751); */
+}
+header nav {
+    /* position: fixed;
+    top: 0%; */
+    border: silver 1px solid;
+    margin-bottom: 1rem;
+    padding: 1%;
+    margin-top: 20px;
+    margin-left: 33%;
+    display: flex;
+    /* justify-content: ; */
+    background-color: white;
+    justify-self: auto;
+    width: 309px;
+    border-radius: 20px;
+    
+}
+nav ul {
+    justify-content: space-around;
+    display: flex;
+}
+nav ul li {
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 7%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.27rem;
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, 0.763);
+    margin-top: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.375rem;
+    margin-right: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+.logo{
+    margin-left: 25px;
+    margin-top: -3px;
+    position: absolute;
+    top: 1.5rem;
+    background-color: white;
+    color:black;
+    padding: 4px;
+    border-radius:22px ;
+    font-size: 22px;
+    padding: 6.5px;
+    padding-top: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 900; */
+    border: silver 1px solid;
+}
+.login{
+    text-decoration: none;
+    width: 25px;
+    color: black;
+    font-size: 1.3rem;
+    border: silver 1px solid;
+    border-radius: 1.8rem;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 900; */
+    margin-left: 7.5rem;
+    margin-top: 1.5rem;
+     height: 2.5rem;
+}
+.login:hover{
+    background-color: blue;
+    color: whitesmoke;
+    /* border:red 1px solid; */
+}
+.get-started{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    background-color: black;
+    border: black 1px solid;
+    border-radius: 1.9rem;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 900; */
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    height: 2.5rem;
+}
+.get-started:hover{
+    background-color: red;
+    /* border: blue 3px solid; */
+}
+.log{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    /* border: silver 1px solid; */
+    margin-left:10rem;
+}
+.hero{
+    display: flex;
+    margin-left: 0.5rem;
+    /* background-color: aliceblue;
+    width:98.5vw; */
+    height: 25rem;
+}
+.hero-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    /* margin-bottom: 1px; */
+}
+.hero-text1{
+    display: inline-block;
+    /* background-color: beige; */
+    /* height: 70%; */
+    font-size: 5.3rem;
+    color: black;
+}
+.hero-text2{
+    display: inline-block;
+    /* background-color: aqua; */
+    height: 50%;
+    font-size: 5.3rem;
+    color: blue;
+}
+.hero-img{
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 400px;
+    /* border: silver 0.1px dotted; */
+}
+.pic{
+    width: 99vw;
+    margin: 10px;
+    background-color: rgba(127, 255, 212, 0.137);
+    height: 850px;
+    border-radius: 3rem;
+}
+.text2{
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10rem;
+}
+.span{
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 0.4rem;
+}
+.grad{
+    height: 45rem;
+    background-color: honeydew;
+    /* background-image: radial-gradient(rgb(163, 191, 163),rgba(255, 192, 203, 0.58),rgba(250, 23, 23, 0.952)); */
+    border-radius: 3rem;
+    background-image:linear-gradient(rgba(128, 0, 128, 0.721),orange);
+    position: relative;
+}
+.grad-img{
+    position: relative;
+    background-color: crimson;
+    margin-top: 5.5rem;
+    margin-left: 5.5rem;
+    border-radius: 2rem;
+}
+.img2{
+    margin-top: 16rem;
+    margin-left: 37rem;
+    border-radius: 2rem;
+    border: springgreen 1px solid;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.about{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.68),rgba(255, 106, 0, 0.705));
+    border-radius: 1rem;
+    margin-top: 5rem;
+    height: 35rem;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.749),rgba(255, 192, 203, 0.84),rgba(0, 128, 0, 0.153),crimson);
+}
+.about-us{
+    margin-top: 0.2rem;
+    margin-bottom: 2.9rem;
+    background-image:linear-gradient(rgba(128, 0, 128, 0.119),rgba(255, 99, 71, 0.45));
+    border-radius: 1rem;
+    height: 10rem;
+}
+.about-text{
+    width: 50%;
+    height: 90%;
+    background-color: salmon;
+    background-image: linear-gradient(honeydew,pink);
+    text-align: center;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.2rem;
+    color: black;
+    float: right;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    font-family: monospace;
+}
+.about-text h2{
+    font-family: monospace;
+}
+.number{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: black;
+    background-color:rgba(240, 255, 240, 0.856);
+    margin-bottom: 0.2rem;
+    margin-left: 10%;
+    height: 8rem;
+    width: 7rem;
+    border-radius: 0.7rem;
+    text-align: center;
+    padding-top: 4.7rem;
+    /* font-family: monospace; */
+}
+.journey{
+    background-image: linear-gradient(honeydew,pink);
+    
+}
+.journey-text{
+    text-align: center;
+    font-size: 2rem;
+    font-family:a;
+    margin-bottom: 0.9rem;
+}
+.badge{
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    height: auto;
+    width: 10rem;
+    margin-left: 43%;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5REM;
+}
+footer{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.119),rgba(255, 99, 71, 0.45));
+    height: 20rem;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+input{
+    text-align: center;
+    margin: 0.4rem;
+    border-radius: 1rem;
+    height: 2rem;
+}
+.message{
+    height: 4rem;
+}
+.submit{
+    color: white;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.721),orange);
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 5rem;
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+}
+.submit:hover{
+    color: white;
+    background-image: linear-gradient(silver, crimson);
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 5rem;
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+}
+footer ul a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer ul{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
